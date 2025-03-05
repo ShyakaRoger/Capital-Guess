@@ -1,6 +1,6 @@
 # Capital Guess
 
-![alt text](<Screenshot 2025-03-03 at 5.47.36 PM.png>)
+![alt text](<Screenshot 2025-03-04 at 8.18.27 PM.png>)
 
 ## About the Game
 
