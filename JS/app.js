@@ -78,12 +78,14 @@ function checkAnswer() {
     const feedbackElement = document.getElementById('feedback');
 
     if (playerAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
-        feedbackElement.textContent = 'Correct!!';
+        feedbackElement.textContent = 'CORRECT!!';
+        feedbackElement.style.color ='green';
         score++;
         consecutiveCorrectAnswers++; // increment by one of consecutive correct answers.
         incorrectAnswers = 0; // resetting incorrect answers 
     } else {
-        feedbackElement.textContent = `Incorrect! The correct answer is ${correctAnswer}.`;
+        feedbackElement.textContent = `INCORRECT! The correct answer is ${correctAnswer}.`;
+        feedbackElement.style.color = 'red';
         incorrectAnswers++; // Increment incorrect answers counter
         consecutiveCorrectAnswers = 0; // Reset consecutive correct answers
     }
