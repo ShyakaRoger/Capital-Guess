@@ -59,7 +59,7 @@ input[type="text"] {
     color: rgb(15, 1, 1);
     width: 20%;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: solid rgb(48, 144, 200);
     border-radius: 8px;
     
@@ -68,8 +68,8 @@ input[type="text"] {
 button {
     color: rgb(35, 2, 2);
     border: solid rgb(7, 85, 130);
-    padding: 0.75rem 1.5rem;
-    font-size: 25px;
+    padding: 0.50rem 1rem;
+    font-size: 20px;
     border-radius: 8px;
     cursor: pointer;
 }
