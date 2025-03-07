@@ -45,6 +45,36 @@
 
 
 const quizData = [
+    { country: 'Albania', capital: 'Tirana' },
+    { country: 'Belarus', capital: 'Minsk' },
+    { country: 'Bulgaria', capital: 'Sofia' },
+    { country: 'Croatia', capital: 'Zagreb' },
+    { country: 'Czech Republic', capital: 'Prague' },
+    { country: 'Estonia', capital: 'Tallinn' },
+    { country: 'Hungary', capital: 'Budapest' },
+    { country: 'Lithuania', capital: 'Vilnius' },
+    { country: 'Moldova', capital: 'Chisinau' },
+    { country: 'Montenegro', capital: 'Podgorica' },
+    { country: 'Poland', capital: 'Warsaw' },
+    { country: 'Romania', capital: 'Bucharest' },
+    { country: 'Serbia', capital: 'Belgrade' },
+    { country: 'Ukraine', capital: 'Kyiv' },,
+    { country: 'Bahamas', capital: 'Nassau' },
+    { country: 'Barbados', capital: 'Bridgetown' },
+    { country: 'Cuba', capital: 'Havana' },
+    { country: 'Dominica', capital: 'Roseau' },
+    { country: 'Grenada', capital: "St. George's" },
+    { country: 'Haiti', capital: 'Port-au-Prince' },
+    { country: 'Jamaica', capital: 'Kingston' },
+    { country: 'Trinidad and Tobago', capital: 'Port of Spain' },
+    { country: 'Belize', capital: 'Belmopan' }, 
+    { country: 'Guyana', capital: 'Georgetown' }, 
+    { country: 'Suriname', capital: 'Paramaribo' },
+    { country: 'Uganda', capital: 'Kampala'},
+    { country: 'Australia', capital: 'Canberra'},
+    { country: 'Tanzania', capital: 'Dar-Es-Salaam'},
+    { country: 'Dominican Republic', capital: 'Santo Domingo'},
+    { country: 'United States', capital: 'Washington, D.C' },
     { country: 'Egypt', capital: 'Cairo' },
     { country: 'Morocco', capital: 'Rabat' },
     { country: 'China', capital: 'Beijing' },
@@ -94,13 +124,13 @@ function checkAnswer() {
     document.getElementById('score').textContent = `Score: ${score}`;
 
     // checking for disqualification (7 incorrect answers)
-    if (incorrectAnswers >= 7) {
+    if (incorrectAnswers >= 20) {
         endGame('disqualified');
         return; // stopping further execution
     }
 
     //checking for a win (10 consecutive correct answers)
-    if (consecutiveCorrectAnswers >= 10) {
+    if (consecutiveCorrectAnswers >= 35) {
         endGame('win');
         return; 
     }
