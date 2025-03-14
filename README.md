@@ -1,6 +1,6 @@
 # Capital Guess
 
-![alt text](<Screenshot 2025-03-04 at 8.18.27 PM.png>)
+![alt text](<Screenshot 2025-03-14 at 1.44.19 AM.png>)
 
 ## About the Game
 
@@ -24,7 +24,7 @@ I chose to create this game because it combines learning with entertainment. It�
 
 ## Getting Started
 
-- **Play the Game**: [https://github.com/ShyakaRoger/Capital-Guess.git](#)
+- **Play the Game**: [https://shyakaroger.github.io/Capital-Guess/](#)
 
 ## Technologies Used
 
