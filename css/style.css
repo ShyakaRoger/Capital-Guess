@@ -58,7 +58,7 @@ h1 {
 input[type="text"] {
     color: rgb(15, 1, 1);
     width: 20%;
-    padding: 0.75rem;
+    padding: 0.50rem;
     font-size: 1rem;
     border: solid rgb(48, 144, 200);
     border-radius: 8px;
