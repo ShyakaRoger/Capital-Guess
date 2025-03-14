@@ -18,9 +18,9 @@ I chose to create this game because it combines learning with entertainment. It�
    - If your answer is correct, you’ll see "Correct!!" and your score will increase.
    - If your answer is incorrect, the correct answer will be displayed for thre reference next time.
 4. **Winning the Game**:
-   - Answer **10 questions correctly in a row** to automatically win the game!
+   - Answer **35 questions correctly in a row** to automatically win the game!
 5. **Losing the Game**:
-   - If you answer **7 questions incorrectly**, you’ll be disqualified.
+   - If you answer **20 questions incorrectly**, you’ll be disqualified.
 
 ## Getting Started
 
