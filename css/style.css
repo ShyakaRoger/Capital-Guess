@@ -58,7 +58,7 @@ h1 {
 input[type="text"] {
     color: rgb(15, 1, 1);
     width: 20%;
-    padding: 0.50rem;
+    padding: 0.60rem;
     font-size: 1rem;
     border: solid rgb(48, 144, 200);
     border-radius: 8px;
@@ -69,7 +69,7 @@ button {
     color: rgb(35, 2, 2);
     border: solid rgb(7, 85, 130);
     padding: 0.50rem 1rem;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 8px;
     cursor: pointer;
 }
